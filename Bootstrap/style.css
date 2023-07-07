@@ -1,0 +1,91 @@
+#resim {
+	width: 100px;
+}
+
+.grid {
+	display:inline-block;
+}
+
+.back-video {
+	
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 500px;
+	bottom: 0;
+	object-fit: cover;
+	z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+	.back-video {
+		width: 100%;
+		height: 60%;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	.back-video {
+		width: 100%;
+		height: 60%;
+	}
+}
+
+#item1 {
+	display: inline-block;
+	margin-left: 110px;
+	float: left;	
+}
+
+#item2 {
+	display: inline-block;
+	margin-left: 110px;
+	
+	
+	float: left;	
+}
+
+#item3 {
+	display: inline-block;
+	margin-left: 110px;
+	float: left;	
+}
+
+#item4 {
+	display: inline-block;
+	float: left;	
+	margin-left: 110px;
+	margin-right: 110px;
+}
+
+.tus {
+	display:inline-block;
+	border: 2px solid hotpink;
+	margin: 50px auto auto 50px;
+	float: right;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
